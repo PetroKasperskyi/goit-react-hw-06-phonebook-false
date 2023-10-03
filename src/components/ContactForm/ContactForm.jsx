@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
-import { getContacts } from '../../Redux/selectors';
-import { addContact } from '../../Redux/contactsSlice';
+import { getContacts } from '../../redux/selectors';
+import { addContact } from '../../redux/contactsSlice';
 import {
   FormAddContact,
   InputField,
